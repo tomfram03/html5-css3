@@ -1,0 +1,114 @@
+    @charset "UTF-8";
+    body {
+        font-family: Arial, Helvetica, serif;
+        background-color: #85D8A8;
+        margin: 0px;
+        display: inline-block;
+    }
+    
+    main {
+        background-color: white;
+        max-width: min-content;
+        height: auto;
+        text-align: justify;
+        padding: 20px;
+        margin: auto;
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.13);
+        border-radius: 0px 0px 10px 10px;
+    }
+    
+    div#cabecalho {
+        text-align: center;
+        color: white;
+        display: inline;
+    }
+    
+    header {
+        background-image: linear-gradient(to top, #1c613b, #31AF69, #3DDA84);
+        padding: 10px 10px;
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.075);
+    }
+    
+    header>div>h1 {
+        color: white;
+        text-align: center;
+    }
+    
+    header>div>p {
+        width: 400px;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    
+    header>nav {
+        text-align: left;
+        font-size: 0.8rem;
+    }
+    
+    header>nav>a {
+        padding: 5px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+    
+    h1,
+    h2 {
+        color: #289056;
+    }
+    
+    div.video {
+        background-color: #1A5C38;
+        padding: 10px;
+        margin: 1px -60px;
+        padding-bottom: 60%;
+        position: relative;
+    }
+    
+    div.video>iframe {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #289056;
+    }
+    
+    img {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    section>article#extras {
+        background-color: #C5EBD6;
+        padding: 10px;
+        border-radius: 0px 0px 5px 5px;
+        box-shadow: black;
+    }
+    
+    section>aside>h3 {
+        background-color: #2FA866;
+        color: white;
+        margin: 0px;
+        padding: 10px;
+        border-radius: 5px 5px 0px 0px;
+    }
+    
+    footer {
+        background-color: #1A5C38;
+        color: white;
+        font-size: 0.9rem;
+        text-align: center;
+        margin: 15px 0px 0px 0px;
+        padding: 1px;
+    }
